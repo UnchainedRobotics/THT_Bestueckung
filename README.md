@@ -33,7 +33,7 @@ To check the accuracy of the detection we used a needle as a wire and then drove
 
 ![jpg](src/images/detectionCheck.jpg)
 
-### placed parts
+### Placed Parts
 On this picture you can see after one run all successfully placed components
 ![jpg](src/images/placedParts.jpg)
 
