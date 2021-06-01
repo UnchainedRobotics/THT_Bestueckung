@@ -12,15 +12,29 @@ Various capacitors and fuses were successfully placed.
 
 ## Example pictures
 
+
 ### Test Station
+In this picture you can see the test setup used. 
+
 ![jpg](src/images/hardware.jpg)
 
 ### Grayimage
+This image is an example of the image taken for a component. 
 
 ![jpg](src/images/graymat.jpg)
 
 ### Detected wires
-
+Here you can see how the wires were detected in the captured image
 ![jpg](src/images/wires.jpg)
+
+
+### Detection Check
+To check the accuracy of the detection we used a needle as a wire and then drove to the desired hole. As you can see we have achieved a very high accuracy.
+
+![jpg](src/images/detectionCheck.jpg)
+
+### placed parts
+On this picture you can see after one run all successfully placed components
+![jpg](src/images/placedParts.jpg)
 
 
