@@ -9,4 +9,18 @@ A camera from Photoneo was used.
 Various capacitors and fuses were successfully placed.
 
 
+
+## Example pictures
+
+### Test Station
+![jpg](src/images/hardware.jpg)
+
+### Grayimage
+
 ![jpg](src/images/graymat.jpg)
+
+### Detected wires
+
+![jpg](src/images/wires.jpg)
+
+
