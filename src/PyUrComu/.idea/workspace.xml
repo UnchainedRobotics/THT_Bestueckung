@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3dcd93da-94c4-432e-8943-5646f2c6219e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Periphery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KalmanFilter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyUrComu.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyUrComu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test - Kopie.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test2.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test3 - Kopie.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test3.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrCommunication.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrCommunication.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1XeyVIPyZVsUKcJBkFNRq2Vd4Uc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/UnchainedRobotics/KafkaTest" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.Test">
+    <configuration name="MA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyUrComu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main_calibration" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyUrComu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main_calibration.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Periphery" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyUrComu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Periphery.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyUrComu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PyUrComu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Test" />
+        <item itemvalue="Python.Test2" />
+        <item itemvalue="Python.MA" />
+        <item itemvalue="Python.Periphery" />
+        <item itemvalue="Python.Main_calibration" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3dcd93da-94c4-432e-8943-5646f2c6219e" name="Default Changelist" comment="" />
+      <created>1581420877000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581420877000</updated>
+      <workItem from="1581420878118" duration="2522000" />
+      <workItem from="1582121198185" duration="1933000" />
+      <workItem from="1582275942315" duration="15082000" />
+      <workItem from="1582296392411" duration="2377000" />
+      <workItem from="1582786842068" duration="4712000" />
+      <workItem from="1582798924464" duration="1161000" />
+      <workItem from="1582803050069" duration="1211000" />
+      <workItem from="1582880681097" duration="316000" />
+      <workItem from="1582881356290" duration="599000" />
+      <workItem from="1582892975458" duration="939000" />
+      <workItem from="1583220404678" duration="599000" />
+      <workItem from="1583227885777" duration="599000" />
+      <workItem from="1583245220283" duration="599000" />
+      <workItem from="1583746452676" duration="7269000" />
+      <workItem from="1583845347398" duration="922000" />
+      <workItem from="1583919413598" duration="3858000" />
+      <workItem from="1584014607387" duration="2671000" />
+      <workItem from="1584088360481" duration="9843000" />
+      <workItem from="1584263906775" duration="9000" />
+      <workItem from="1584368861288" duration="4474000" />
+      <workItem from="1584428989436" duration="1067000" />
+      <workItem from="1584433943172" duration="11432000" />
+      <workItem from="1584456489554" duration="2656000" />
+      <workItem from="1584516661861" duration="6893000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="667" y="136" width="642" height="832" key="#PyUrComu" timestamp="1581420952014">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="667" y="136" width="642" height="832" key="#PyUrComu/67.27.1853.1053@67.27.1853.1053" timestamp="1581420952014" />
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581421001772">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581421001772" />
+    <state x="725" y="316" width="515" height="472" key="EnvironmentVariablesDialog" timestamp="1581420920371">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="725" y="316" width="515" height="472" key="EnvironmentVariablesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1581420920371" />
+    <state x="2228" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1584438503285">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2228" y="311" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584438503285" />
+    <state width="881" height="442" key="GridCell.Tab.0.bottom" timestamp="1584525356715">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/0.27.3840.1053@0.27.3840.1053" timestamp="1582298883117" />
+    <state width="881" height="442" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584525356715" />
+    <state width="1807" height="238" key="GridCell.Tab.0.bottom/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1584429844916" />
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1582297317458" />
+    <state width="881" height="442" key="GridCell.Tab.0.center" timestamp="1584525356715">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.center/0.27.3840.1053@0.27.3840.1053" timestamp="1582298883116" />
+    <state width="881" height="442" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584525356715" />
+    <state width="1807" height="238" key="GridCell.Tab.0.center/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1584429844916" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1582297317458" />
+    <state width="881" height="442" key="GridCell.Tab.0.left" timestamp="1584525356715">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.left/0.27.3840.1053@0.27.3840.1053" timestamp="1582298883116" />
+    <state width="881" height="442" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584525356715" />
+    <state width="1807" height="238" key="GridCell.Tab.0.left/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1584429844915" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1582297317458" />
+    <state width="881" height="442" key="GridCell.Tab.0.right" timestamp="1584525356715">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1807" height="278" key="GridCell.Tab.0.right/0.27.3840.1053@0.27.3840.1053" timestamp="1582298883116" />
+    <state width="881" height="442" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584525356715" />
+    <state width="1807" height="238" key="GridCell.Tab.0.right/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1584429844916" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1582297317458" />
+    <state width="881" height="344" key="GridCell.Tab.1.bottom" timestamp="1582287878375">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="881" height="344" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1582287878375" />
+    <state width="881" height="344" key="GridCell.Tab.1.center" timestamp="1582287878375">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="881" height="344" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1582287878375" />
+    <state width="881" height="344" key="GridCell.Tab.1.left" timestamp="1582287878375">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="881" height="344" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1582287878375" />
+    <state width="881" height="344" key="GridCell.Tab.1.right" timestamp="1582287878375">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="881" height="344" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1582287878375" />
+    <state x="2350" y="164" key="SettingsEditor" timestamp="1584438555526">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2350" y="164" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584438555526" />
+    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1581420971739" />
+    <state x="1185" y="286" width="540" height="524" key="StructurePopup" timestamp="1583749389463">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1185" y="286" width="540" height="524" key="StructurePopup/1920.0.1920.1080/67.27.1853.1053@67.27.1853.1053" timestamp="1583749389463" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1582296397162">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="603" y="380" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1582275943832" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1582296397162" />
+    <state x="3040" y="253" key="run.anything.popup" timestamp="1584371833922">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3040" y="253" key="run.anything.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1584371833922" />
+  </component>
+</project>

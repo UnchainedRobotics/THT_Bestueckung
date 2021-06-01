@@ -1,0 +1,61 @@
+  global Waypoint_1_p=p[.571267450978, .281265397850, .640016563229, 2.605899054586, -1.071388482512, .809242793263]
+  global Waypoint_1_q=[-2.817416615251833, -1.23828160344795, 0.9077571737687727, -1.5487408973084804, 4.194034269993894, -0.5470250606960718]
+  global Waypoint_2_p=p[.602529642678, .252470832077, .577432015035, 2.613656472186, -1.058610108137, .811528248537]
+  global Waypoint_2_q=[-2.877748269520392, -1.2441780008661043, 1.0897053744388239, -1.762142694366215, 4.216574835701, -0.6238820694811764]
+  global Waypoint_3_p=p[.583151904413, .269655346498, .615157858911, 2.613656463902, -1.058610098986, .811528268572]
+  global Waypoint_3_q=[-2.8420732670625077, -1.2480454570394803, 0.9920805760637945, -1.6421377554598182, 4.204925474402252, -0.5853924771010011]
+  global Waypoint_4_p=p[.502299361147, .295406117887, .284995870828, -2.902441652456, 1.202230682711, .000043600752]
+  global Waypoint_4_q=[-2.8414626056530214, -1.2798600325970284, 1.7729233207873678, -2.063109341948202, 4.7114982535882, -0.4842867441207783]
+  global Waypoint_5_p=p[.459099999720, .252819999724, .285000000000, 2.902451282231, -1.202170527816, -.000098710501]
+  global Waypoint_5_q=[-2.8959640807233074, -1.4090133513522591, 1.9380783605712337, -2.099058209785472, 4.711432851063118, -0.5390630255403348]
+  global Waypoint_6_p=p[.371462540183, .122837686679, .315584666473, 2.902451291494, -1.202170534552, -.000098721224]
+  global Waypoint_6_q=[-3.170188761905006, -1.7800826731963504, 2.2105456506636196, -2.0004543734434934, 4.711360319693117, -0.8136819780696811]
+  #while (True):
+    $ 1 "Robot Program"
+    global open=socket_open(*HostIp*,*HostPort*,socket_name="socket_write")
+    while(open==False):
+	open=socket_open(*HostIp*,*HostPort*,socket_name="socket_write")
+    end
+    # begin: URCap Program Node
+    #   Source: FT-OnRobot, 4.1.4, OnRobot A/S
+    #   Type: F/T Width
+    $ 2 "F/T Width(20)"
+    of_return = of_gripper_set_width( 20.0, 40.0, blocking = True, depth_compensation = False, popupmsg = True )
+    # end: URCap Program Node
+    $ 3 "MoveL"
+    $ 4 "Waypoint_1" "breakAfter"
+    movel(Waypoint_1_p, a=0.2, v=0.2)
+    sleep(3)
+   # $ 5 "MoveL"
+   # $ 6 "Waypoint_2" "breakAfter"
+   # movel(Waypoint_2_p, a=0.2, v=0.05)
+    # begin: URCap Program Node
+    #   Source: FT-OnRobot, 4.1.4, OnRobot A/S
+    #   Type: F/T Width
+    $ 7 "F/T Width(0)"
+    of_return = of_gripper_set_width( 0.0, 40.0, blocking = True, depth_compensation = True, popupmsg = True )
+
+    # end: URCap Program Node
+    $ 8 "MoveL"
+    $ 9 "Waypoint_3" "breakAfter"
+    movel(Waypoint_3_p, a=0.3, v=0.075)
+
+    $ 10 "MoveJ"
+    $ 11 "Waypoint_4" "breakAfter"
+    movej(get_inverse_kin(Waypoint_4_p, qnear=Waypoint_4_q), a=1.3962634015954636, v=2)
+    sleep(3)
+    $ 12 "MoveL"
+    $ 13 "Waypoint_5" "breakAfter"
+    socket_send_string("Start",socket_name="socket_write")
+    movel(Waypoint_5_p, a=0.015, v=0.02)
+    socket_send_string("Done",socket_name="socket_write")
+    $ 14 "MoveJ"
+    $ 15 "Waypoint_6" "breakAfter"
+    movej(get_inverse_kin(Waypoint_6_p, qnear=Waypoint_6_q), a=1.3962634015954636, v=2)
+    $ 16 "MoveJ"
+    $ 17 "Waypoint_1" "breakAfter"
+    #movej(get_inverse_kin(Waypoint_1_p, qnear=Waypoint_1_q), a=1.3962634015954636, v=2)
+    $ 18 "Popup: bla"
+    #popup("bla", "Message", False, False, blocking=True)
+    socket_close(socket_name="socket_write")
+  #end

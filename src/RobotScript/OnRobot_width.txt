@@ -1,0 +1,9 @@
+global open=socket_open(*HostIp*,*HostPort*,socket_name="socket_write")
+while(open==False):
+	open=socket_open(*HostIp*,*HostPort*,socket_name="socket_write")
+	end
+of_return = of_gripper_set_width(*width*, *force*, blocking = True, depth_compensation = *depth_comp*, popupmsg = True )
+
+
+socket_send_string("Ready",socket_name="socket_write")
+socket_close(socket_name="socket_write")
